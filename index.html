@@ -1,90 +1,176 @@
 <!DOCTYPE html>
-<html>
 
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
+
   <meta name="viewport" content="width=device-width">
   <title>Personal Portfolio</title>
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <header>
-    <nav id="navbar">
-      <span><a href="#about" class="nav-link">About</a></span>
-      <span><a href="#work" class="nav-link">Work</a></span>
-      <span><a href="#contact" class="nav-link">Contact</a></span>
-    </nav>
-   </header>
 
-  <section id="welcome-section" class="view">
-    <div id="about">
-    <br />
-    <h1>Hello, I am Ariana Spretz</h1>
-    
-       <image class="responsive-img" id="photo" src="images/Ariana.jpg" id="photo" alt=""/>
 
-    
-    <p>a Web Developer</p>
-    </div>
-  </section>
-  <br />
-  <div id='white'> 
-  <h2 id="title">These are some of my projects</h2>
-  </div>
-  <br /><br /><br />
-<div class="container" id="work">
-  <br /><br /><br /> <br /><br /><br />  <br /><br /><br />
-  <section id="projects" class="view">
-    
-    
-    <a href="Tribute Page/index.html" target="_blank" class="project project-tile">
+<nav id="navbar" class="nav">
 
-<img class="project-image" src="images/Screenshot William Horatio Bates.png" alt="project" />
+<ul class="nav-list">
 
-<p class="project-title">Tribute Page</p>
+<li>
 
-</a>
+<a href="#welcome-section">About</a>
 
-<a href="Survey Form/index.html" target="_blank" class="project project-tile">
+</li>
 
-<img class="project-image" src="images/Screenshot Survey Form.png" alt="project" />
+<li>
 
-<p class="project-title">Survey Form</p>
+<a href="#projects">Work</a>
 
-</a>
+</li>
 
-<a href="Product Landing Page/index.html" target="_blank" class="project project-tile">
+<li>
 
-<img class="project-image" src="images/Screenshot Landing Page.png" alt="project" />
+<a href="#contact">Contact</a>
 
-<p class="project-title">Product Landing Page</p>
+</li>
 
-</a>
+</ul>
 
-<a href="Technical Documentation/index.html" target="_blank" class="project project-tile">
+</nav>
 
-<img class="project-image" src="images/Screenshot Technical Documentation.png" alt="project" />
+<section id="welcome-section" class="welcome-section">
+</br> </br> </br>
+<h1>Hello, I am Ariana Spretz.</h1>
 
-<p class="project-title">Technical Documentation</p>
-
-</a>
-
-  </section>
+    <image class="responsive-img" id="photo" src="https://cdn.glitch.global/9d07b4cf-ceae-4a8a-bc7e-6fa984f84c89/thumbnails%2FAriana.jpg?1717636205642" id="photo" alt=""/>
+<div id="write">
+<h4>I am currently studying programming at freeCodeCamp.org.
+I am seeking to obtain an entry-level programmer position in a dynamic and challenging environment that will allow me to apply and further develop my technical skills in programming to follow a successful career in software development.
+I am eager to work collaboratively with a team and contribute to the development of innovative software solutions while continuously learning and growing as a programmer.
+Proficient in HTML and comfortable working with CSS. Strong problem-solving skills and a passion for learning new technologies.</h4>
 </div>
-  <div id="contact" class="box-container-profile-link">
-    <section id="profile" class="view">
-      <h2>Let´s work together...</h2>
-      <p>You can see my profile and contact me on:</p> 
-     
-      <span><button><a id="profile-link" id="onlink-1" target="_blank" href="https://www.freecodecamp.org/fcc97a4612c-ace6-4fb2-8584-c09b0a37bd6f">Free Code Camp</a></button></span>
-      <span><button><a id="profile-link" id="onlink-2" target="_blank" href="https://www.linkedin.com/in/ariana-carolina-spretz-369040120/">Linkedin</a></button></span>
+      </br> 
+</section>
+
+<section id="projects" class="projects-section">
+</br> </br> </br>
+<h3 class="projects-section-header">These are some of my projects</h3>
+
+<div class="projects-grid">
+<div class="background">
+  <p class="project-title">Tribute Page</p>
+<img class="project-image" src="https://cdn.glitch.global/9d07b4cf-ceae-4a8a-bc7e-6fa984f84c89/Screenshot%20William%20Horatio%20Bates.png?1717636265232" alt="project" />
+
+<section>
+  <ul>
+    <span><button class="move"><a href="Tribute Page/index.html" target="_blank" class="project project-tile">Live View</a></button></span>
+
+      <span><button class="move"><a href="https://github.com/arispretz/Tribute-Page" target="_blank">Source Code</a></button></span>
+      </ul>
     </section>
-  </div>
+</div>
+
+<div class="background">
+  <p class="project-title">Survey Form</p>
+<img class="project-image" src="https://cdn.glitch.global/9d07b4cf-ceae-4a8a-bc7e-6fa984f84c89/Screenshot%20Survey%20Form.png?1717636308287" alt="project" />
+
+<section>
+  <ul>
+    <span><button class="move"><a href="Survey Form/index.html" target="_blank" class="project project-tile">Live View</a></button></span>
+
+      <span><button class="move"><a href="https://github.com/arispretz/Survey-Form" target="_blank">Source Code</a></button></span>
+      </ul>
+    </section>
+
+</div>
+
+<div class="background">
+  <p class="project-title">Product Landing Page</p>
+<img class="project-image" src="https://cdn.glitch.global/9d07b4cf-ceae-4a8a-bc7e-6fa984f84c89/Screenshot%20Landing%20Page..png?1717636346789" alt="project" />
+
+<section>
+  <ul>
+    <span><button class="move"><a href="Product Landing Page/index.html" target="_blank" class="project project-tile">Live View</a></button></span>
+
+      <span><button class="move"><a href="https://github.com/arispretz/Product-Landing-Page" target="_blank">Source Code</a></button></span>
+      </ul>
+    </section>
+
+</div>
+
+<div class="background">
+  <p class="project-title">Technical Documentation</p>
+<img class="project-image" src="https://cdn.glitch.global/9d07b4cf-ceae-4a8a-bc7e-6fa984f84c89/Screenshot%20Technical%20Documentation.png?1717636383058" alt="project" />
+
+<section>
+  <ul>
+    <span><button class="move"><a href="Technical Documentation/index.html" target="_blank" class="project project-tile">Live View</a></button></span>
+
+      <span><button class="move"><a href="https://github.com/arispretz/Technical-Documentarion-Page" target="_blank">Source Code</a></button></span>
+      </ul>
+    </section>
+
+</div>
+  
+<div class="background">
+  <p class="project-title">Portfolio</p>
+<img class="project-image" src="https://cdn.glitch.global/9d07b4cf-ceae-4a8a-bc7e-6fa984f84c89/thumbnails%2FScreenshot%20portfolio.png?1717636425739" alt="project" />
+
+<section>
+  <ul>
+    <span><button class="move"><a href="Portfolio fcc/index.html" target="_blank" class="project project-tile">Live View</a></button></span>
+
+      <span><button class="move"><a href="https://github.com/arispretz/Portfolio-fcc" target="_blank">Source Code</a></button></span>
+      </ul>
+    </section>
+
+</div>
+
+<div class="background">
+  <p class="project-title">Palindrome Checker</p>
+<img class="project-image" src="https://cdn.glitch.global/9d07b4cf-ceae-4a8a-bc7e-6fa984f84c89/thumbnails%2FScreenshot%20palindrome.png?1717636470838" alt="project" />
+
+<section>
+  <ul>
+    <span><button class="move"><a href="Palindrome Checker/index.html" target="_blank" class="project project-tile">Live View</a></button></span>
+
+      <span><button class="move"><a href="https://github.com/arispretz/Palindrome-Checker" target="_blank">Source Code</a></button></span>
+      </ul>
+    </section>
+</div>
+</div>
+
+<div class="show">
+<a href="https://github.com/arispretz/Project-Page-1" class="btn btn-show-more" target="_blank">Show more<i class="fas fa-chevron-right"></i></a>
+</div>
+</section>
+
+<section id="contact" class="contact-section">
+
+<div class="contact-section-header">
+
+<h2>Let's work together...</h2>
+
+<p>You can see my profile, certificates and contact me on:</p>
+
+</div>
+
+<div class="contact-links">
+  <button><a href="https://www.freecodecamp.org/fcc97a4612c-ace6-4fb2-8584-c09b0a37bd6f" target="_blank" class="btn contact-details">freeCodeCamp</a></button>
+
+<button><a id="profile-link" href="https://github.com/arispretz/arispretz.github.io" target="_blank" class="btn contact-details">GitHub</a></button>
+
+<button><a href="https://www.linkedin.com/in/ariana-carolina-spretz-369040120/" target="_blank" class="btn contact-details">Linkedin</a></button>
+
+</div>
+
+</section>
 
 </body>
+
 <footer>
-  <p><strong>Copyright 2022 - Created by Ariana Spretz</strong></p>
+
+<p>&copy; Created by Ariana Spretz.</p>
+
 </footer>
 
 </html>
